@@ -14,6 +14,33 @@ app.get('/quotes', (request, response) => {
     .catch(console.error);
 });
 
+app.get('/quotes/:id', (request, response) => {
+  queries
+    .readQuote(request.params.id)
+    .then(quote => {
+      quote ? response.json({quote}) : response.sendStatus(404);
+    })
+    .catch(console.error);
+});
+
+app.post('/quotes', (request, response) => {
+  queries
+    .createQuote(request.body)
+    .then(quote => {
+      response.status(201).json({quote});
+    })
+    .catch(console.error);
+});
+
+app.put('/quotes/:id', (request, response) => {
+  queries
+    .updateQuote(request.params.id, request.body)
+    .then(quote => {
+      response.json({quote});
+    })
+    .catch(console.error);
+});
+
 app.get('/favorites', (request, response) => {
   queries
     .listFavorites()
