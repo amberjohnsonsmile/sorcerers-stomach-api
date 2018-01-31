@@ -22,12 +22,35 @@ module.exports = {
       .returning('*')
       .then(record => record[0]);
   },
-  deleteQuote(id) {},
+  deleteQuote(id) {
+    return database('quote')
+      .where('id', id)
+      .del();
+  },
   listFavorites() {
     return database('favorite');
   },
-  readFavorite(id) {},
-  createFavorite(favorite) {},
-  updateFavorite(id, favorite) {},
-  deleteFavorite(id) {}
+  readFavorite(id) {
+    return database('favorite')
+      .where('id', id)
+      .first();
+  },
+  createFavorite(favorite) {
+    return database('favorite')
+      .insert(favorite)
+      .returning('*')
+      .then(record => record[0]);
+  },
+  updateFavorite(id, favorite) {
+    return database('favorite')
+      .update(favorite)
+      .where('id', id)
+      .returning('*')
+      .then(record => record[0]);
+  },
+  deleteFavorite(id) {
+    return database('favorite')
+      .where('id', id)
+      .del();
+  }
 };
