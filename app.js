@@ -18,7 +18,7 @@ app.get('/quotes/:id', (request, response) => {
   queries
     .readQuote(request.params.id)
     .then(quote => {
-      quote ? response.json({quote}) : response.sendStatus(404);
+      quote ? response.json({quote}) : response.sendStatus(418);
     })
     .catch(console.error);
 });
@@ -96,7 +96,7 @@ app.delete('/favorites/:id', (request, response) => {
 });
 
 app.use((request, response) => {
-  response.send(404);
+  response.send(418);
 });
 
 module.exports = app;
