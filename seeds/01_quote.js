@@ -10,6 +10,6 @@ exports.seed = function(knex, Promise) {
       ]);
     })
     .then(() => {
-      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 7')
+      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 6')
     });
 };
