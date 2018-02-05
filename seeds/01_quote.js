@@ -337,8 +337,215 @@ exports.seed = function(knex, Promise) {
         {
           id: 39,
           quote:
+            "Harry felt as though an ice cube had slipped down into his stomach at the very thought....",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1497382227533-202dc91e6c14',
+          isReal: true
+        },
+        {
+          id: 40,
+          quote:
+            "“Yeah, I know,” said Harry, but there was a leaden feeling in his stomach as he looked out of the window at the Hedwig-free sky.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1489093990898-aa81d43f910b',
+          isReal: true
+        },
+        {
+          id: 41,
+          quote:
+            "Trying to ignore the sinking feeling of disappointment in his stomach, Harry returned to his porridge.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1502209524164-acea936639a2',
+          isReal: true
+        },
+        {
+          id: 42,
+          quote:
+            "Harry watched her fly out of sight with the familiar feeling of unease back in his stomach.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1482376297902-a54c222cec2b',
+          isReal: true
+        },
+        {
+          id: 43,
+          quote:
+            "The article had appeared ten days ago, and Harry still got a sick, burning feeling of shame in his stomach every time he thought about it.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1509991837233-9a46f4ee019b',
+          isReal: true
+        },
+        {
+          id: 44,
+          quote:
+            "As he said it, his stomach flooded with a wave of molten panic.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1513841942364-0aada93e7a7d',
+          isReal: true
+        },
+        {
+          id: 45,
+          quote:
+            "Harry turned to look at her and his stomach gave a weird lurch as though he had missed a step going downstairs.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1500488867305-5ed02944918f',
+          isReal: true
+        },
+        {
+          id: 46,
+          quote:
+            "And so the first day of the new term arrived, and Harry set off to lessons, weighed down with books, parchment, and quills as usual, but also with the lurking worry of the egg heavy in his stomach, as though he were carrying that around with him too.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3',
+          isReal: true
+        },
+        {
+          id: 47,
+          quote:
+            "But he suddenly realized what he was saying, and he felt the excitement drain out of him as though someone had just pulled a plug in his stomach.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1507833421144-4a33437fea3e',
+          isReal: true
+        },
+        {
+          id: 48,
+          quote:
+            "Ron and Hermione stared at Harry, who felt his stomach drop.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1516313382985-1c2d86ad0907',
+          isReal: true
+        },
+        {
+          id: 49,
+          quote:
+            "A large, dead weight seemed to fall through Harry’s chest into his stomach.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1493690283958-32df2c86326e',
+          isReal: true
+        },
+        {
+          id: 50,
+          quote:
+            "Harry’s stomach leapt — he was now tying for first place with Cedric",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1495572195357-1c8d6b84bc52',
+          isReal: true
+        },
+        {
+          id: 51,
+          quote:
+            "Harry’s stomach slipped several notches.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1506432499555-221afc0fa13a',
+          isReal: true
+        },
+        {
+          id: 52,
+          quote:
+            "The phoenix let out one soft, quavering note. It shivered in the air, and Harry felt as though a drop of hot liquid had slipped down his throat into his stomach, warming him, and strengthening him.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1500217421378-106080ccb99e',
+          isReal: true
+        },
+        {
+          id: 53,
+          quote:
+            "Harry felt a chill in his stomach as Professor McGonagall struggled to find words to describe what had happened.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1508630410394-5e1604f9901f',
+          isReal: true
+        },
+        {
+          id: 54,
+          quote:
+            "Harry felt a hot, sick swoop of anger in his stomach.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1511993294592-4d1d416697a3',
+          isReal: true
+        },
+        {
+          id: 55,
+          quote:
+            "His insides squirmed uncomfortably as he spoke.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1516747773440-e114ee0d3c07',
+          isReal: true
+        },
+        {
+          id: 56,
+          quote:
+            "Harry’s insides seemed to curl up and shrivel.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1513010127920-653a6edc095b',
+          isReal: true
+        },
+        {
+          id: 57,
+          quote:
+            "It was odd; a moment before his insides had been writhing like snakes, but suddenly he didn’t seem to have any insides at all.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1511594148306-949a8d8f551d',
+          isReal: true
+        },
+        {
+          id: 58,
+          quote:
+            "His insides had come back again. It felt as though they had been filled with lead in their absence.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1414342952040-4c09ded92ce9',
+          isReal: true
+        },
+        {
+          id: 59,
+          quote:
+            "Harry’s insides gave a guilty squirm, but he ignored them.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1484808188706-407756e94c6e',
+          isReal: true
+        },
+        {
+          id: 60,
+          quote:
+            "He repressed a shudder at the thought of what might come spilling out of his mouth if Snape did it... quite apart from landing a whole lot of people in trouble — Hermione and Dobby for a start — there were all the other things he was concealing... like the fact that he was in contact with Sirius... and — his insides squirmed at the thought — how he felt about Cho....",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1428894976381-853e04af6262',
+          isReal: true
+        },
+        {
+          id: 61,
+          quote:
+            "Harry’s insides went cold.",
+          source: 'Harry Potter and the Goblet of Fire',
+          image:
+            'https://images.unsplash.com/photo-1496340077100-9573d8b77463',
+          isReal: true
+        },
+        {
+          id: 62,
+          quote:
             "",
-          source: 'Harry Potter and the Prisoner of Azkaban',
+          source: 'Harry Potter and the Order of the Phoenix',
           image:
             '',
           isReal: true
