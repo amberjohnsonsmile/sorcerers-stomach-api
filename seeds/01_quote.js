@@ -544,6 +544,150 @@ exports.seed = function(knex, Promise) {
         {
           id: 62,
           quote:
+            "The opening notes of the music that heralded the seven o’clock news reached Harry’s ears and his stomach turned over.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1471478331149-c72f17e33c73',
+          isReal: true
+        },
+        {
+          id: 63,
+          quote:
+            "Outside in the flower bed, Harry’s stomach seemed to unclench.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1496861083958-175bb1bd5702',
+          isReal: true
+        },
+        {
+          id: 64,
+          quote:
+            "Harry felt a dull, sinking sensation in his stomach and, before he knew it, the feeling of hopelessness that had plagued him all summer rolled over him once again.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1495427513693-3f40da04b3fd',
+          isReal: true
+        },
+        {
+          id: 65,
+          quote:
+            "“What d’you mean?” Harry said again, but there was a cold, plunging sensation in his stomach.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1512331716563-b1942ff334b5',
+          isReal: true
+        },
+        {
+          id: 66,
+          quote:
+            "His stomach turned over.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1496317556649-f930d733eea3',
+          isReal: true
+        },
+        {
+          id: 67,
+          quote:
+            "Harry felt as though his stomach had sunk through the dusty carpet.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1516420053114-7df614f5e7d4',
+          isReal: true
+        },
+        {
+          id: 68,
+          quote:
+            "He felt as though a brick had dropped into his stomach when Mrs. Weasley turned to him during dinner on Wednesday evening and said quietly, “I’ve ironed your best clothes for tomorrow morning, Harry, and I want you to wash your hair tonight too. A good first impression can work wonders.”",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1456083334823-6e5bc7132162',
+          isReal: true
+        },
+        {
+          id: 69,
+          quote:
+            "Harry felt a horrible sinking in the pit of his stomach.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1505556154861-5caf6c4cb36a',
+          isReal: true
+        },
+        {
+          id: 70,
+          quote:
+            "Standing where the twins had left him with nothing but a guilty weight in the pit of his stomach for company, Harry caught the sound of his own name.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1487180144351-b8472da7d491',
+          isReal: true
+        },
+        {
+          id: 71,
+          quote:
+            "Harry’s stomach, already uncomfortable, clenched as he looked at Alice Longbottom; he knew her round, friendly face very well, even though he had never met her, because she was the image of her son, Neville.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/uploads/141155339325423394b24/03982423',
+          isReal: true
+        },
+        {
+          id: 72,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 72,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 73,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 74,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 75,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 76,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 77,
+          quote:
             "",
           source: 'Harry Potter and the Order of the Phoenix',
           image:
