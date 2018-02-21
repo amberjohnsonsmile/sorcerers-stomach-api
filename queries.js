@@ -60,7 +60,10 @@ module.exports = {
         'comment.quote_id',
         'comment.id',
         'comment.name',
-        'comment.comment'
+        'comment.comment',
+        'quote.quote',
+        'quote.source',
+        'quote.isReal'
       )
       .where('quote.id', id)
       .returning('*');
