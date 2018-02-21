@@ -27,29 +27,29 @@ module.exports = {
       .where('id', id)
       .del();
   },
-  listFavorites() {
-    return database('favorite');
+  listComments() {
+    return database('comment');
   },
-  readFavorite(id) {
-    return database('favorite')
+  readComment(id) {
+    return database('comment')
       .where('id', id)
       .first();
   },
-  createFavorite(favorite) {
-    return database('favorite')
-      .insert(favorite)
+  createComment(comment) {
+    return database('comment')
+      .insert(comment)
       .returning('*')
       .then(record => record[0]);
   },
-  updateFavorite(id, favorite) {
-    return database('favorite')
-      .update(favorite)
+  updateComment(id, comment) {
+    return database('comment')
+      .update(comment)
       .where('id', id)
       .returning('*')
       .then(record => record[0]);
   },
-  deleteFavorite(id) {
-    return database('favorite')
+  deleteComment(id) {
+    return database('comment')
       .where('id', id)
       .del();
   }

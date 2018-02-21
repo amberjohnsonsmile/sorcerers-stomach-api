@@ -52,45 +52,45 @@ app.delete('/quotes/:id', (request, response) => {
     .catch(console.error);
 });
 
-app.get('/favorites', (request, response) => {
+app.get('/comments', (request, response) => {
   queries
-    .listFavorites()
-    .then(favorites => {
-      response.json({favorites});
+    .listComments()
+    .then(comments => {
+      response.json({comments});
     })
     .catch(console.error);
 });
 
-app.get('/favorites/:id', (request, response) => {
+app.get('/comments/:id', (request, response) => {
   queries
-    .readFavorite(request.params.id)
-    .then(favorite => {
-      favorite ? response.json({favorite}) : response.sendStatus(404);
+    .readComment(request.params.id)
+    .then(comment => {
+      comment ? response.json({comment}) : response.sendStatus(404);
     })
     .catch(console.error);
 });
 
-app.post('/favorites', (request, response) => {
+app.post('/comments', (request, response) => {
   queries
-    .createFavorite(request.body)
-    .then(favorite => {
-      response.status(201).json({favorite});
+    .createComment(request.body)
+    .then(comment => {
+      response.status(201).json({comment});
     })
     .catch(console.error);
 });
 
-app.put('/favorites/:id', (request, response) => {
+app.put('/comments/:id', (request, response) => {
   queries
-    .updateFavorite(request.params.id, request.body)
-    .then(favorite => {
-      response.json({favorite});
+    .updateComment(request.params.id, request.body)
+    .then(comment => {
+      response.json({comment});
     })
     .catch(console.error);
 });
 
-app.delete('/favorites/:id', (request, response) => {
+app.delete('/comments/:id', (request, response) => {
   queries
-    .deleteFavorite(request.params.id)
+    .deleteComment(request.params.id)
     .then(() => {
       response.sendStatus(204);
     })
@@ -98,7 +98,7 @@ app.delete('/favorites/:id', (request, response) => {
 });
 
 app.use((request, response) => {
-  response.send(418);
+  response.sendStatus(418);
 });
 
 module.exports = app;
