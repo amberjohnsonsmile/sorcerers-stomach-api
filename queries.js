@@ -54,8 +54,21 @@ module.exports = {
       .del();
   },
   readQuoteComments(id) {
-    return database('comment')
-      .join('quote', 'quote.id', '=', 'comment.quote_id')
+    // return database('comment')
+    //   .join('quote', 'quote.id', '=', 'comment.quote_id')
+    //   .select(
+    //     'comment.quote_id',
+    //     'comment.id',
+    //     'comment.name',
+    //     'comment.comment',
+    //     'quote.quote',
+    //     'quote.source',
+    //     'quote.isReal'
+    //   )
+    //   .where('quote.id', id)
+    //   .returning('*');
+    return database('quote')
+      .join('comment', 'comment.quote_id', '=', 'quote.id')
       .select(
         'comment.quote_id',
         'comment.id',
