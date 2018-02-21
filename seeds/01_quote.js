@@ -634,12 +634,291 @@ exports.seed = function(knex, Promise) {
         {
           id: 72,
           quote:
+            "Without warning, the scar on his forehead seared with pain again and his stomach churned horribly.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1471079688237-3ac9a55f1d6f',
+          isReal: true
+        },
+        {
+          id: 73,
+          quote:
+            "Harry wished all the teachers would stop doing this; he was starting to get an anxious, twisted feeling in his stomach every time he remembered how much homework he had to do, a feeling that worsened dramatically when Professor Sprout gave them yet another essay at the end of class.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1478641300939-0ec5188d3802',
+          isReal: true
+        },
+        {
+          id: 74,
+          quote:
+            "He also felt an odd, sick, empty feeling in his stomach that had nothing to do with tiredness and everything to do with the letter now curling blackly in the heart of the fire. ",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1447069387593-a5de0862481e',
+          isReal: true
+        },
+        {
+          id: 75,
+          quote:
+            "First came Neville with Dean and Lavender, who were closely followed by Parvati and Padma Patil with (Harry’s stomach did a back flip) Cho and one of her usually giggling girlfriends.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1476937619554-0f08b179a10c',
+          isReal: true
+        },
+        {
+          id: 76,
+          quote:
+            "“And that’s not to mention,” said Cho (Harry’s eyes snapped onto her, she was looking at him, smiling; his stomach did another somersault), “all the tasks he had to get through in the Triwizard Tournament last year — getting past dragons and merpeople and acromantulas and things....”",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1517672028475-9ad83dfa0e51',
+          isReal: true
+        },
+        {
+          id: 77,
+          quote:
+            "His scar had hurt... and he had had that odd feeling in his stomach... a strange, leaping feeling... a happy feeling.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1457131760772-7017c6180f05',
+          isReal: true
+        },
+        {
+          id: 78,
+          quote:
+            "“Harry’s leader,” said Cho at once, looking at Hermione as though she were mad, and Harry’s stomach did yet another back flip.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1495756426042-bae74e1fa11e',
+          isReal: true
+        },
+        {
+          id: 79,
+          quote:
+            "Harry saw Cho laughing and felt the familiar swooping sensation in his stomach, as though he had missed a step going downstairs.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1448035249594-10682f3c2db3',
+          isReal: true
+        },
+        {
+          id: 80,
+          quote:
+            "The thought made his stomach clench painfully.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1497044383938-c0486a41b655',
+          isReal: true
+        },
+        {
+          id: 81,
+          quote:
+            "His stomach was full of horrible hot, bubbling guilt.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1516491575772-bab9f75948c0',
+          isReal: true
+        },
+        {
+          id: 82,
+          quote:
+            "A leaden sensation was settling in the pit of his stomach.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1483564775855-5e57a5d569f2',
+          isReal: true
+        },
+        {
+          id: 83,
+          quote:
+            "Their glass might be shattered, but still the little black-and-white people inside them peered haughtily up at him, including — he felt a little jolt in his stomach — the dark, heavy-lidded woman whose trial he had witnessed in Dumbledore’s Pensieve: Bellatrix Lestrange.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1485075792961-9ea033ad04fc',
+          isReal: true
+        },
+        {
+          id: 84,
+          quote:
+            "“Oh,” said Harry as his stomach leapt uncomfortably. “Hi.”",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1474452926969-af7bfdb9ca39',
+          isReal: true
+        },
+        {
+          id: 85,
+          quote:
+            "Harry’s stomach gave an unpleasant lurch, but she did not look over at the Gryffindor table and sat down with her back to him.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1508558029785-6464fb34d3a1',
+          isReal: true
+        },
+        {
+          id: 86,
+          quote:
+            "Harry felt a horrible plummeting in his stomach.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1474575767135-14237cca19dc',
+          isReal: true
+        },
+        {
+          id: 87,
+          quote:
+            "Harry’s stomach turned over and his hand holding the teacup shook so that the cup rattled in its saucer.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1508014861016-f37cdf89e94d',
+          isReal: true
+        },
+        {
+          id: 88,
+          quote:
+            "His stomach gave a sickening jolt as he remembered that he had Occlumency the following evening....",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1500674425229-f692875b0ab7',
+          isReal: true
+        },
+        {
+          id: 89,
+          quote:
+            "Excitement exploded in the pit of his stomach: It was as though he was looking at himself but with deliberate mistakes.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1514876246314-d9a231ea21db',
+          isReal: true
+        },
+        {
+          id: 90,
+          quote:
+            "And two seats along from this girl — Harry’s stomach gave another pleasurable squirm — was Remus Lupin.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1510021115607-c94b84bceb1d',
+          isReal: true
+        },
+        {
+          id: 91,
+          quote:
+            "Nothing, except that the thought of taking this sensible course of action made him feel as though a lead weight had dropped into his stomach....",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1493690283958-32df2c86326e',
+          isReal: true
+        },
+        {
+          id: 92,
+          quote:
+            "“. . . Bradley . . . Davies . . . Chang,” he said, and Harry felt his stomach perform, less of a back flip, more a feeble lurch as Cho walked out onto the pitch, her shiny black hair rippling in the slight breeze.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1508697371770-529139794f8b',
+          isReal: true
+        },
+        {
+          id: 93,
+          quote:
+            "Harry’s stomach contracted with fear... with excitement....",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1496301780924-70b4cee59011',
+          isReal: true
+        },
+        {
+          id: 94,
+          quote:
+            "He had expected this, yet was not prepared for the molten wave of dread and panic that seemed to burst through his stomach floor at the sight of the deserted room.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+          isReal: true
+        },
+        {
+          id: 95,
+          quote:
+            "Harry’s stomach gave a jolt.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1504466664756-1adbe6d13b36',
+          isReal: true
+        },
+        {
+          id: 96,
+          quote:
+            "The knot in Harry’s stomach tightened.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1451195090173-2e0781d7c33e',
+          isReal: true
+        },
+        {
+          id: 97,
+          quote:
+            "She walked away from him, and as he watched her go, he found that the terrible weight in his stomach seemed to have lessened slightly.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7',
+          isReal: true
+        },
+        {
+          id: 98,
+          quote:
+            "Harry felt a great jolt in his guts as though he had just missed a step going downstairs.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1489347215392-cee3b4f539aa',
+          isReal: true
+        },
+        {
+          id: 99,
+          quote:
+            "These furious thoughts whirled around in Harry’s head, and his insides writhed with anger as a sultry, velvety night fell around him, the air full of the smell of warm, dry grass and the only sound that of the low grumble of traffic on the road beyond the park railings.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1503525148566-ef5c2b9c93bd',
+          isReal: true
+        },
+        {
+          id: 100,
+          quote:
+            "He cast around for a topic to change the subject from Dumbledore — the very thought of him made Harry’s insides burn with anger again.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1511792411104-ccfdd048bd9a',
+          isReal: true
+        },
+        {
+          id: 101,
+          quote:
             "",
           source: 'Harry Potter and the Order of the Phoenix',
           image:
             '',
           isReal: true
-        }
+        },
+        {
+          id: 102,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
+        {
+          id: 103,
+          quote:
+            "",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            '',
+          isReal: true
+        },
       ]);
     })
     .then(() => {
