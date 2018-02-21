@@ -901,27 +901,9 @@ exports.seed = function(knex, Promise) {
             '',
           isReal: true
         },
-        {
-          id: 102,
-          quote:
-            "",
-          source: 'Harry Potter and the Order of the Phoenix',
-          image:
-            '',
-          isReal: true
-        },
-        {
-          id: 103,
-          quote:
-            "",
-          source: 'Harry Potter and the Order of the Phoenix',
-          image:
-            '',
-          isReal: true
-        },
       ]);
     })
     .then(() => {
-      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 73');
+      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 102');
     });
 };
