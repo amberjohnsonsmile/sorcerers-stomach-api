@@ -8,7 +8,7 @@ exports.seed = function(knex, Promise) {
           quote:
             'Harry felt as though the bottom had dropped out of his stomach.',
           source: "Harry Potter and the Sorcerer's Stone",
-          image: 'https://images.unsplash.com/photo-1516456712953-ba42cc070398',
+          image: 'https://images.unsplash.com/photo-1511986484651-993497d7e3f1',
           isReal: true
         },
         {
@@ -23,7 +23,7 @@ exports.seed = function(knex, Promise) {
           id: 3,
           quote: 'Harry felt as though his insides had turned to ice.',
           source: "Harry Potter and the Sorcerer's Stone",
-          image: 'https://images.unsplash.com/photo-1516456712953-ba42cc070398',
+          image: 'https://images.unsplash.com/photo-1501675423372-9bfa95849e62',
           isReal: true
         },
         {
