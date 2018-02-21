@@ -97,6 +97,15 @@ app.delete('/comments/:id', (request, response) => {
     .catch(console.error);
 });
 
+app.get('/quote-comments/:id', (request, response) => {
+  queries
+    .readQuoteComments(request.params.id)
+    .then(quoteComments => {
+      response.json({quoteComments})
+    })
+    .catch(console.error);
+});
+
 app.use((request, response) => {
   response.sendStatus(418);
 });

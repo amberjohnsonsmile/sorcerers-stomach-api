@@ -52,5 +52,17 @@ module.exports = {
     return database('comment')
       .where('id', id)
       .del();
+  },
+  readQuoteComments(id) {
+    return database('comment')
+      .join('quote', 'quote.id', '=', 'comment.quote_id')
+      .select(
+        'comment.quote_id',
+        'comment.id',
+        'comment.name',
+        'comment.comment'
+      )
+      .where('quote.id', id)
+      .returning('*');
   }
 };
