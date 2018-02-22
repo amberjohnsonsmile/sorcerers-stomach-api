@@ -895,6 +895,114 @@ exports.seed = function(knex, Promise) {
         {
           id: 101,
           quote:
+            "Fear jabbed at his insides like needles as he wondered what was going to happen to him if he was expelled.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1452032821564-0f802617a6a1',
+          isReal: true
+        },
+        {
+          id: 102,
+          quote:
+            "His insides were squirming.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1516747773440-e114ee0d3c07',
+          isReal: true
+        },
+        {
+          id: 103,
+          quote:
+            "His insides seemed to shrivel with embarrassment.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1442473483905-95eb436675f1',
+          isReal: true
+        },
+        {
+          id: 104,
+          quote:
+            "Harry’s insides reinflated so rapidly he felt as though he might actually float a few inches off the dropping-strewn floor.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1433838552652-f9a46b332c40',
+          isReal: true
+        },
+        {
+          id: 105,
+          quote:
+            "His insides were pulsing with rage.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1487241281672-301e0f542588',
+          isReal: true
+        },
+        {
+          id: 106,
+          quote:
+            "“— and Alicia passes back to Angelina!” Lee shouted, and as Harry swerved, his insides boiling at what he had just heard, he knew Lee was trying to drown out the sound of the singing.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1515127784137-a16d5217257f',
+          isReal: true
+        },
+        {
+          id: 107,
+          quote:
+            "And then a truly terrible thought occurred to him, a memory bobbing to the surface of his mind, one that made his insides writhe and squirm like serpents....",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1513362191612-dc4ae788e4c3',
+          isReal: true
+        },
+        {
+          id: 108,
+          quote:
+            "He turned over onto his other side and after a while dropped back off to sleep, waking much later in the early hours of the morning, with his insides aching with hunger, and Ron snoring in the next bed.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1506224477000-07aa8a76be20',
+          isReal: true
+        },
+        {
+          id: 109,
+          quote:
+            "Harry had the horrible sensation that his insides were melting.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1470422703728-ef495b7a172d',
+          isReal: true
+        },
+        {
+          id: 110,
+          quote:
+            "In the second or so it took for him to take in what she had said, Harry’s insides had become glacial.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1482093378251-82b99034041a',
+          isReal: true
+        },
+        {
+          id: 111,
+          quote:
+            "Harry’s insides plummeted sickeningly.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1459891373124-d2ab1e3ed58e',
+          isReal: true
+        },
+        {
+          id: 112,
+          quote:
+            "Harry felt the white-hot anger lick his insides, blazing in the terrible emptiness, filling him with the desire to hurt Dumbledore for his calmness and his empty words.",
+          source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1489275960192-edc747009a6e',
+          isReal: true
+        },
+        {
+          id: 113,
+          quote:
             "",
           source: 'Harry Potter and the Order of the Phoenix',
           image:
@@ -904,6 +1012,6 @@ exports.seed = function(knex, Promise) {
       ]);
     })
     .then(() => {
-      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 102');
+      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 114');
     });
 };
