@@ -1003,8 +1003,170 @@ exports.seed = function(knex, Promise) {
         {
           id: 113,
           quote:
-            "",
+            "Harry felt a great jolt in his guts as though he had just missed a step going downstairs.",
           source: 'Harry Potter and the Order of the Phoenix',
+          image:
+            'https://images.unsplash.com/photo-1473772564351-202a22a93101',
+          isReal: true
+        },
+        {
+          id: 114,
+          quote:
+            "Harry’s stomach squirmed. He wished he had eaten less breakfast.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1455853739633-8c94c03d8121',
+          isReal: true
+        },
+        {
+          id: 115,
+          quote:
+            "He had known all along that he wouldn’t, but he still felt a sinking in his stomach as he looked again at that small black E.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/reserve/uZYSV4nuQeyq64azfVIn_15130980706_64134efc6e_o.jpg',
+          isReal: true
+        },
+        {
+          id: 116,
+          quote:
+            "“— the ice-cream place in Diagon Alley?” Harry interrupted, with an unpleasant, hollow sensation in the pit of his stomach.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1507750549272-e58742b1df80',
+          isReal: true
+        },
+        {
+          id: 117,
+          quote:
+            "The smell of roast beef made Harry’s stomach ache with hunger, but they had barely taken three steps toward the Gryffindor table when Professor Slughorn appeared in front of them, blocking their path.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1514214144664-c28b328245e2',
+          isReal: true
+        },
+        {
+          id: 118,
+          quote:
+            "It was as though something large and scaly erupted into life in Harry’s stomach, clawing at his insides: Hot blood seemed to flood his brain, so that all thought was extinguished, replaced by a savage urge to jinx Dean into a jelly.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1451486242265-24b0c0ef9a51',
+          isReal: true
+        },
+        {
+          id: 119,
+          quote:
+            "Harry’s stomach turned over.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1501707193650-e839d612aad6',
+          isReal: true
+        },
+        {
+          id: 120,
+          quote:
+            "But next moment, his stomach seemed to drop out of the sky — Smith was right and Harry was wrong: Harper had not sped upward at random; he had spotted what Harry had not: The Snitch was speeding along high above them, glinting brightly against the clear blue sky.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1465173904241-1f101f249d97',
+          isReal: true
+        },
+        {
+          id: 121,
+          quote:
+            "She patted him on the arm; Harry felt a swooping sensation in his stomach, but then she walked off to help herself to more butterbeer.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1504502350688-00f5d59bbdeb',
+          isReal: true
+        },
+        {
+          id: 122,
+          quote:
+            "Harry felt anger bubbling in the pit of his stomach: So Dolores Umbridge was still at the Ministry, was she?",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1442600678244-fc0253be6acb',
+          isReal: true
+        },
+        {
+          id: 123,
+          quote:
+            "Finally, a hollow feeling in his stomach and the knowledge that Ron and Hermione would soon be back for lunch made him abandon the attempt and leave the corridor to Malfoy who, hopefully, would be too afraid to leave for some hours to come.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1493512939369-16a5dd091dfd',
+          isReal: true
+        },
+        {
+          id: 124,
+          quote:
+            "Would he tell Slughorn — Harry’s stomach churned — how Harry had been achieving such good results in Potions all year?",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1502571021998-c562c753aedc',
+          isReal: true
+        },
+        {
+          id: 125,
+          quote:
+            "It was, as Harry had anticipated, useless, boring work, punctuated (as Snape had clearly planned) with the regular jolt in the stomach that meant he had just read his father or Sirius’s names, usually coupled together in various petty misdeeds, occasionally accompanied by those of Remus Lupin and Peter Pettigrew.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1463527882365-18201e85a091',
+          isReal: true
+        },
+        {
+          id: 126,
+          quote:
+            "Harry’s stomach started rumbling when the clock showed half past twelve.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/19/clock.JPG',
+          isReal: true
+        },
+        {
+          id: 127,
+          quote:
+            "Harry felt a searing pain in his stomach at the sound of the name.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1512713627743-69aac2e905b4',
+          isReal: true
+        },
+        {
+          id: 128,
+          quote:
+            "Harry dropped his gaze to his treacle tart, his insides burning again.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81',
+          isReal: true
+        },
+        {
+          id: 129,
+          quote:
+            "Harry took a deep breath and continued calmly, though his insides were boiling, “Yeah, ghosts are transparent, but Inferi are dead bodies, aren’t they? So they’d be solid —”",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1503847526538-824483d02f15',
+          isReal: true
+        },
+        {
+          id: 130,
+          quote:
+            "Harry thought there was a rather knowing look in her eye as she told him that, but she could not possibly know that his insides were suddenly dancing the conga.",
+          source: 'Harry Potter and the Half-Blood Prince',
+          image:
+            'https://images.unsplash.com/photo-1482575832494-771f74bf6857',
+          isReal: true
+        },
+        {
+          id: 131,
+          quote:
+            "",
+          source: 'Harry Potter and the Half-Blood Prince',
           image:
             '',
           isReal: true
@@ -1012,6 +1174,6 @@ exports.seed = function(knex, Promise) {
       ]);
     })
     .then(() => {
-      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 114');
+      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 132');
     });
 };
