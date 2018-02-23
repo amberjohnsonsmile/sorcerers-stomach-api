@@ -1165,15 +1165,159 @@ exports.seed = function(knex, Promise) {
         {
           id: 131,
           quote:
-            "",
-          source: 'Harry Potter and the Half-Blood Prince',
+            " As the lamplight fell across George’s head, Ginny gasped and Harry’s stomach lurched: One of George’s ears was missing.",
+          source: 'Harry Potter and the Deathly Hallows',
           image:
-            '',
+            'https://images.unsplash.com/photo-1516649355415-34bf59dd1590',
           isReal: true
         },
+        {
+          id: 132,
+          quote:
+            "But he thought of Ginny, and fear bubbled like acid in his stomach.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1504838986326-0f4d3ce9cf63',
+          isReal: true
+        },
+        {
+          id: 133,
+          quote:
+            "Harry felt as though a brick had slid down through his chest into his stomach.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1479670612349-3b5dba5179c7',
+          isReal: true
+        },
+        {
+          id: 134,
+          quote:
+            "They looked around: Harry’s stomach turned over. One of the Death Eaters who had witnessed Dumbledore’s death was striding toward them.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1502866004299-b0c00b86d59f',
+          isReal: true
+        },
+        {
+          id: 135,
+          quote:
+            "Panic pulsed in the pit of his stomach.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1495420434947-41fd0fbab21f',
+          isReal: true
+        },
+        {
+          id: 136,
+          quote:
+            "He had not even realized that he was clammy or that there was a heavy weight pressing on his stomach until both sensations lifted.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1495427513693-3f40da04b3fd',
+          isReal: true
+        },
+        {
+          id: 137,
+          quote:
+            "He could hear Ron saying, “We thought you knew what you were doing!”, and he resumed packing with a hard knot in the pit of his stomach.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1514940269061-a79f23a95316',
+          isReal: true
+        },
+        {
+          id: 138,
+          quote:
+            "This scant news made Harry want to see Ginny so badly it felt like a stomachache; but it also made him think of Ron again, and of Dumbledore, and of Hogwarts itself, which he missed nearly as much as his ex-girlfriend.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1508240673821-4ef25b609290',
+          isReal: true
+        },
+        {
+          id: 139,
+          quote:
+            "Harry’s stomach turned over. He knew who this was: Fenrir Greyback, the werewolf who was permitted to wear Death Eater robes in return for his hired savagery.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1510853675132-58241c941e4f',
+          isReal: true
+        },
+        {
+          id: 140,
+          quote:
+            "Harry glanced down and felt another dull blow to his stomach: Colin Creevey, though underage, must have sneaked back just as Malfoy, Crabbe, and Goyle had done.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1489708631777-b35c5e75d4c8',
+          isReal: true
+        },
+        {
+          id: 141,
+          quote:
+            "His insides clenched like a fist.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1495436134391-84de71640d6d',
+          isReal: true
+        },
+        {
+          id: 142,
+          quote:
+            "“ ‘To Harry James Potter,’ ” he read, and Harry’s insides contracted with a sudden excitement, “ ‘I leave the Snitch he caught in his first Quidditch match at Hogwarts, as a reminder of the rewards of perseverance and skill.’ ”",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1488931260411-17cf8d29a5da',
+          isReal: true
+        },
+        {
+          id: 143,
+          quote:
+            "His insides crawled unpleasantly as Hermione laid bare Ron’s upper arm, where a great chunk of flesh was missing, scooped cleanly away as though by a knife.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1505489313250-652ae7591b95',
+          isReal: true
+        },
+        {
+          id: 144,
+          quote:
+            "His insides, already uncomfortable due to their inadequate helping of rubbery mushrooms, tingled with unease.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1512595594595-82b7f049313b',
+          isReal: true
+        },
+        {
+          id: 145,
+          quote:
+            "She gasped so dramatically that Harry’s insides turned over; he drew his wand, looking around at the entrance, half expecting to see a hand forcing its way through the entrance flap, but there was nothing there.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1500206329404-5057e0aefa48',
+          isReal: true
+        },
+        {
+          id: 146,
+          quote:
+            "Then he heard a terrible cry that pulled at his insides, that expressed agony of a kind neither flame nor curse could cause, and he stood up, swaying, more frightened than he had been that day, more frightened, perhaps, than he had been in his life....",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1500670602153-5e2dd3c75f20',
+          isReal: true
+        },
+        {
+          id: 147,
+          quote:
+            "He knew a dreadful, gut-wrenching pang for Hedwig as it exploded; the Death Eater nearest it was blasted off his broom and fell from sight; his companion fell back and vanished.",
+          source: 'Harry Potter and the Deathly Hallows',
+          image:
+            'https://images.unsplash.com/photo-1483644682004-a1f3de3d974e',
+          isReal: true
+        }
       ]);
     })
     .then(() => {
-      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 132');
+      return knex.raw('ALTER SEQUENCE quote_id_seq RESTART WITH 149');
     });
 };
