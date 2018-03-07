@@ -29,7 +29,22 @@ If you would like to run the server locally, follow these steps:
 
 1. Run `npm run dev`
 
-1. View the JSON in your web browser at localhost:3000/quotes
+1. Visit the API in your web browser at localhost:3000 with the following endpoints:
+* GET
+  * /quotes - lists all quotes
+  * /quotes/:id - reads a quote with matching id
+  * /comments - lists all comments
+  * /comments/:id - reads a comment with matching id
+  * /quote-comments/:id - lists associated comments for a given quote id
+* POST
+  * /quotes - creates a quote
+  * /comments - creates a comment
+* PUT
+  * /quotes/:id - updates quote with matching id
+  * /comments/:id - updates comment with matching id
+* DELETE
+  * /quotes/:id - deletes quote with matching id
+  * /comments/:id - deletes comment with matching id
 
 
 ## Contact
