@@ -1,6 +1,6 @@
 # Harry Potter and the Sorcerer's Stomach
 
-This is the API of quotes and comments for Harry Potter and the Sorcerer's Stomach. Check out the frontend code [here](https://github.com/amberjohnsonsmile/sorcerers-stomach)!
+This API for Harry Potter and the Sorcerer's Stomach contains every quote from the seven Harry Potter books that mentions Harry's stomach. It also includes user-generated quotes and comments. Check out the frontend code [here](https://github.com/amberjohnsonsmile/sorcerers-stomach)!
 
 Explore quotes about Harry Potter's stomach from all seven Harry Potter books, and even add your own! This full stack app includes the ability to view and add quotes as well as comment on them.
 
